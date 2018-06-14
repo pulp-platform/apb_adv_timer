@@ -1,16 +1,16 @@
 apb_adv_timer:
   incdirs: [
-    .,
+    ./rtl,
   ]
   files: [
-    adv_timer_apb_if.sv,
-    comparator.sv,
-    lut_4x4.sv,
-    out_filter.sv,
-    up_down_counter.sv,
-    input_stage.sv,
-    prescaler.sv,
-    apb_adv_timer.sv,
-    timer_cntrl.sv,
-    timer_module.sv,
+    ./rtl/adv_timer_apb_if.sv,
+    ./rtl/comparator.sv,
+    ./rtl/lut_4x4.sv,
+    ./rtl/out_filter.sv,
+    ./rtl/up_down_counter.sv,
+    ./rtl/input_stage.sv,
+    ./rtl/prescaler.sv,
+    ./rtl/apb_adv_timer.sv,
+    ./rtl/timer_cntrl.sv,
+    ./rtl/timer_module.sv,
   ]
