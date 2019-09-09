@@ -14,3 +14,16 @@ apb_adv_timer:
     ./rtl/timer_cntrl.sv,
     ./rtl/timer_module.sv,
   ]
+  jg_slint_top_name: [
+    apb_adv_timer
+  ]
+  jg_slint_elab_opt: [    
+  ]
+  jg_slint_postelab_cmds: [
+  ]
+  jg_slint_clocks: [
+    HCLK,
+  ]
+  jg_slint_resets: [
+    ~HRESETn,
+  ]
