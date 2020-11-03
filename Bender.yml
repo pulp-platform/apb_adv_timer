@@ -1,0 +1,22 @@
+package:
+  name: apb_adv_timer
+  authors: 
+    - "Florent Rotenberg <florent.rotenberg@greenwaves-technologies.com>"
+    - "Yao Zhang <yao.zhang@greenwaves-technologies.com>"
+    - "Antonio Pullini <pullinia@iis.ee.ethz.ch>"
+    - "Davide Schiavone <pschiavo@iis.ee.ethz.ch>"
+
+sources:
+  - files:
+      - rtl/adv_timer_apb_if.sv
+      - rtl/comparator.sv
+      - rtl/lut_4x4.sv
+      - rtl/out_filter.sv
+      - rtl/up_down_counter.sv
+      - rtl/input_stage.sv
+      - rtl/prescaler.sv
+      - rtl/apb_adv_timer.sv
+      - rtl/timer_cntrl.sv
+      - rtl/timer_module.sv
+    include_dirs:
+      - rtl
