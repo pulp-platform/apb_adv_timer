@@ -5,12 +5,12 @@ apb_adv_timer:
   files: [
     ./rtl/adv_timer_apb_if.sv,
     ./rtl/comparator.sv,
+    ./rtl/input_stage.sv,
     ./rtl/lut_4x4.sv,
     ./rtl/out_filter.sv,
-    ./rtl/up_down_counter.sv,
-    ./rtl/input_stage.sv,
-    ./rtl/prescaler.sv,
-    ./rtl/apb_adv_timer.sv,
     ./rtl/timer_cntrl.sv,
+    ./rtl/up_down_counter.sv,
+    ./rtl/prescaler.sv,
     ./rtl/timer_module.sv,
+    ./rtl/apb_adv_timer.sv,
   ]
