@@ -7,7 +7,7 @@ package:
     - "Davide Schiavone <pschiavo@iis.ee.ethz.ch>"
 
 dependencies:
-  tech_cells_generic: { git: "git@github.com:pulp-platform/tech_cells_generic.git", version: 0.1.6 }
+  tech_cells_generic: { git: "https://github.com/pulp-platform/tech_cells_generic.git", version: 0.2.3 }
 
 sources:
   - files:
